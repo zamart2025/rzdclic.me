@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="description" content=" Ce site présente le portfolio de Ritzamarum Zétrenne, developpeur web en devenir.">
+    <meta name="keywords" content=" portfolio, developpement web, numérique, developpeurs haïtiens">
+    <link rel="stylesheet" href="mainstyle.css">
+</head>
+<body>
+  <header>
+  <div class="conteneur">
+    <div class="moi">
+      <h1>
+        <a href="index.html">
+          <span class="prenom">Ritzamarum</span> <span class="nom">Zétrenne</span>
+        </a>
+      </h1>
+    </div>
+    <div class="menus">
+      <div class="menu-top">
+        <h6>Suivez-moi</h6>
+        <nav class="menu-social">
+          <ul>
+            <li><a href="https://www.linkedin.com/in/ritzamarum-zetrenne/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="https://www.facebook.com/rzetrenne" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://x.com/twitzamar" target="_blank"><i class="fab fa-x"></i></a></li>
+            <li><a href="https://www.instagram.com/ritzamarum_zetrenne/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <nav class="main-menu">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="apropos.html">À propos</a></li>
+          <li><a href="projets.html">Projets</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </div>
+</header>
+
+<section id="principal">
+  <div class="intro">
+    <p>
+      Je suis <span class="monNom">Ritzamarum Zétrenne</span>, développeur en devenir.
+      J'ai suivi une formation en développement web grâce à l'
+      <a class="lien" href="https://www.francophonie.org/">Organisation internationale de la Francophonie</a>
+      dans le cadre du programme
+      <a class="lien" href="https://dclic.francophonie.org">D-CLIC</a>.
+    </p>
+    <a href="projets.html" class="bouton">Voir mes projets</a>
+  </div>
+
+  <div class="image">
+    <img src="/Users/zamart/Documents/Projet/dev.png" alt="code">
+  </div>
+</section>
+
+<section class="apropos">
+    <h3> À propos</h3>
+    <p> Je suis <span class="monNom">Ritzamarum Zétrenne</span>, développeur web passionné et dynamique. J’aime créer des sites web attractifs et interactifs. 
+
+Je suis encore étudiant en développement web et je cherche au quotidien à renforcer mes compétences en HTML, CSS et JAVASCRIPT notamment. 
+
+Je peux concevoir votre site web de A à Z et vous aider à avoir un très bon positionnement sur le web. 
+</p>
+<a href="/Users/zamart/Documents/Projet/Ritzamarum Zétrenne CV1.pdf" class="bouton" download> Télécharger mon CV </a>
+<div class="profil"> <img src="/Users/zamart/Documents/Projet/ritzamarum.jpg"></div>
+
+</section>
+<section class="projets">
+    <h3> Projets</h3>
+<section class="blocs">
+    <div class="bloc1"> 
+        <p> J'ai créé une page web avec mon CV dans le cadre de mes exercices pratiques </p>
+        <a href="cv.html" class="bouton"> Voir le projet</a>
+    </div>
+    <div class="bloc2"> 
+        <p> Dans le cadre d'un devoir pour valider ma formation en developpement web, j'ai créé une page où l'utilisateur peut entrer une date qui sera ensuite analysée par un programme Javascript</p>
+        <a href="exercice1.html" class="bouton"> Voir le projet</a>
+    </div>
+    <div class="bloc3"> 
+        <p> Un autre projet que j'ai réalisé, c'est une page qui utilise la fonction Maths en Javascript pour trouver la racine carré d'un nombre</p> 
+     <a href="exercice2.html" class="bouton"> Voir le projet</a> </div>
+</section>
+</section>
+<section>
+     <h3> Mes compétences</h3>
+     <div class="competences">
+    <div class="competences_techniques">
+        <h4> Compétences techniques</h4>
+        <ul> 
+            <li> HTML</li>
+            <div class="barre1"></div>
+            <li> CSS</li>
+            <div class="barre2"></div>
+            <li> Javascript</li>
+            <div class="barre3"></div>
+
+        </ul>
+
+    </div>
+    <div class="soft_skills">
+        <h4> Soft Skills</h4>
+        <ul> 
+            <li> Communication</li>
+            <div class="barre4"></div>
+            <li> Adaptabilité</li>
+            <div class="barre5"></div>
+            <li> Écoute</li>
+            <div class="barre6"></div>
+
+        </ul>
+    </div>
+     </div>
+</section>
+<section class="contact">
+  <p>
+    Souhaitez-vous me confier <span class="appel">votre prochain projet ?</span>
+    N'hésitez pas à me <span class="contacter">contacter !</span>
+  </p>
+
+  <form name="formulaire" onsubmit="return validerMessage();">
+    <div class="champ">
+      <label for="prenom">Prénom</label>
+      <input type="text" name="prenom" id="prenom" placeholder="Écrivez votre prénom">
+    </div>
+
+    <div class="champ">
+      <label for="nom">Nom</label>
+      <input type="text" name="nom" id="nom" placeholder="Écrivez votre nom">
+    </div>
+
+    <div class="champ">
+      <label for="objet">Objet</label>
+      <input type="text" name="objet" id="objet" placeholder="Objet de votre message">
+    </div>
+
+    <div class="champ">
+      <label for="message">Message</label>
+      <textarea name="message" id="message" rows="5" placeholder="Votre message..."></textarea>
+    </div>
+
+    <input type="submit" value="Envoyer" class="bouton-envoyer">
+  </form>
+
+  <script>
+    function validerMessage() {
+      var msg = document.forms["formulaire"]["message"].value.trim();
+      if (msg === "") {
+        alert("Un message est obligatoire.");
+        return false;
+      }
+      alert("Votre message a été envoyé avec succès");
+      return true;
+    }
+  </script>
+</section>
+
+</body>
+<footer>
+    <div class="pied"> 
+        <p> Designed by <span class="credits"> Ritzamarum Zétrenne</span></p>
+    </div>
+    <div class="pied2"> 
+        <p> Tous droits réservés 2025</p>
+    </div>
+</footer>
+
+</html>

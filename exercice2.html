@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 2</title>
+</head>
+<body>
+
+    <h2>Maths</h2>
+
+    <label for="nombre">Entrez un nombre :</label>
+    <input type="number" id="nombre" oninput="calculer()">
+
+    <p id="racine">Racine carrée : </p>
+    <p id="arrondi">Arrondi : </p>
+    <button onclick="Aleatoire()">Générer un nombre aléatoire (1 à 100)</button>
+    <p id="resultatAleatoire">Nombre aléatoire : </p>
+
+    <label for="min">Min :</label>
+    <input type="number" id="min" value="10">
+    <label for="max">Max :</label>
+    <input type="number" id="max" value="50">
+    <button onclick="Aleatoire2()">Générer un nombre entre Min et Max</button>
+    <p id="resultatAleatoire2">Nombre aléatoire personnalisé : </p>
+<script src="script2.js"></script>
+</body>
+</html>
